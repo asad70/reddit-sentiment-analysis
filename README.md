@@ -3,8 +3,7 @@ This program goes thru reddit, finds the most mentioned tickers and uses Vader S
 
 ## Program Parameters
 <pre>
-subs = []            
-sub-reddit to search<br />
+subs = []           sub-reddit to search
 post_flairs = {}    posts flairs to search || None flair is automatically considered
 goodAuth = {}       authors whom comments are allowed more than once
 uniqueCmt = True    allow one comment per author per symbol

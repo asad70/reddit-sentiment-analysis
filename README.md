@@ -1,6 +1,22 @@
 # reddit-sentiment-analysis
 This program goes thru reddit, finds the most mentioned tickers and uses Vader SentimentIntensityAnalyzer to calculate the ticker compound value.  
 
+## Program Parameters
+<pre>
+subs = []            
+sub-reddit to search<br />
+post_flairs = {}    posts flairs to search || None flair is automatically considered
+goodAuth = {}       authors whom comments are allowed more than once
+uniqueCmt = True    allow one comment per author per symbol
+ignoreAuthP = {}    authors to ignore for posts
+ignoreAuthC = {}    authors to ignore for comment 
+upvoteRatio = float upvote ratio for post to be considered, 0.70 = 70%
+ups = int           define # of upvotes, post is considered if upvotes exceed this #
+limit = int         define the limit, comments 'replace more' limit
+upvotes = int       define # of upvotes, comment is considered if upvotes exceed this #
+picks = int         define # of picks here, prints as "Top ## picks are:"
+picks_ayz = int     define # of picks for sentiment analysis
+</pre>
 
 ## Sample Output
 It took 216.65 seconds to analyze 5862 comments in 80 posts in 4 subreddits.

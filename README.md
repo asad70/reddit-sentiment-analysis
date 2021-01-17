@@ -44,8 +44,9 @@ TSLA    &nbsp;0.124    &nbsp;0.690    &nbsp; &nbsp;0.187           &nbsp; &nbsp;
 ![](sentiment.png)
 
 ## Data:
-Includes US stocks with market cap > 100 Million, and price above $3. As wsb doesn't allow penny stocks discussions.\
-Source:  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download 
+Includes US stocks with market cap > 100 Million, and price above $3. It doesn't include penny stocks.\
+You can download data from here:\
+Source (US stocks):  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download\
 
 
 Implementation:

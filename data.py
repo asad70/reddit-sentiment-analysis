@@ -1,5 +1,4 @@
-'''includes US stock symbols with market cap > 100 Million, and price above $3. As wsb doesn't allow
-penny stocks discussions. 
+'''includes US stock symbols with market cap > 100 Million, and price above $3. 
 Download the csv file  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download 
 of all the NYSE, NASDAQ and NYSEAMERICAN public traded companies.
 '''

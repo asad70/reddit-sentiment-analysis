@@ -17,6 +17,10 @@ picks = int         define # of picks here, prints as "Top ## picks are:"
 picks_ayz = int     define # of picks for sentiment analysis
 </pre>
 
+# How to run:
+
+    python3 reddit-sentiment-analysis.py
+    
 ## Sample Output
 It took 216.65 seconds to analyze 5862 comments in 80 posts in 4 subreddits.
 
@@ -49,13 +53,9 @@ You can download data from here:\
 Source (US stocks):  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download\
 
 
-Implementation:
-I am using sets for 'x in s' comparison, sets time complexity for "x in s" is O(1) compare to list: O(n).
-
-
 Limitations:
 It depends mainly on the defined parameters for current implementation:
 It completely ignores the heavily downvoted comments, and there can be a time when
-the most mentioned ticker is heavily downvoted, but you can change that in upvotes variable.
+the most mentioned ticker is heavily downvoted, but you can change that in the upvotes variable.
 
 

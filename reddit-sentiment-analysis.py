@@ -273,8 +273,8 @@ def main():
     
     # reddit client
     reddit = praw.Reddit(user_agent="Comment Extraction",
-                         client_id="czMu6OVVxu7m9w",
-                         client_secret="51zV6OGlz8mOm0w4GyukCTHpveBFIQ",
+                         client_id="",
+                         client_secret="",
                          username="",
                          password="")
 

@@ -56,9 +56,8 @@ You can download data from here:\
 Source (US stocks):  https://www.nasdaq.com/market-activity/stocks/screener?exchange=nasdaq&letter=0&render=download\
 
 
-Limitations:
-It depends mainly on the defined parameters for current implementation:
-It completely ignores the heavily downvoted comments, and there can be a time when
-the most mentioned ticker is heavily downvoted, but you can change that in the upvotes variable.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
